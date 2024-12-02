@@ -1,0 +1,1 @@
+This Go code implements a basic honeypot that listens on ports 21 (FTP) and 80 (HTTP). It logs connection attempts and commands received to a SQLite database and a log file. The honeypot simulates an FTP server with a simple banner and responds to basic commands like USER and PASS. This setup helps capture malicious activity and gather information about potential attackers.
